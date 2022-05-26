@@ -1,0 +1,41 @@
+{
+  "name": "design-system-with-storybook-and-rollup",
+  "version": "0.0.1",
+  "description": "Demo de la integración básica de un sistema de diseño basado en react, empaquetado con rollup y storybook como catalogo de componentes",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abibflores/design-system-with-storybook-and-rollup.git"
+  },
+  "keywords": [
+    "storybook",
+    "react",
+    "typescript",
+    "rollup",
+    "styled-components"
+  ],
+  "author": "abibflores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abibflores/design-system-with-storybook-and-rollup/issues"
+  },
+  "homepage": "https://github.com/abibflores/design-system-with-storybook-and-rollup#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.9",
+    "react": "^18.1.0",
+    "rollup": "^2.74.1",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.7.2"
+  }
+}

@@ -1,5 +1,6 @@
-import { MouseEventHandler } from "react";
+import { HTMLAttributes } from 'react';
 
-export interface ButtonProps {
-    onClick: MouseEventHandler<HTMLButtonElement>;
+export interface Props extends HTMLAttributes<HTMLDivElement> {
+  children: string;
+  primary?: boolean;
 }
